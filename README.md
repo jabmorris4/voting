@@ -2,6 +2,8 @@
 
 Streamlit app VOTE!
 
+![image](https://user-images.githubusercontent.com/116606302/205720075-5a77116b-4692-4187-b9b0-0dd2df308158.png)
+
 To be President
 Need 269 electoral votes from 538 votes)
 
