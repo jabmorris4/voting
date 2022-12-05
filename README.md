@@ -14,24 +14,23 @@ State Voter Facts
 3 states conduct all elections by mail
 20 states require excuse to vote absentee ballot mail
 
+Tableau dashboard: https://public.tableau.com/app/profile/jennifer.oconnor/viz/JenOConnorMidterm/VOTE?publish=yes
+
 State Pary Affiliation
 Electoral Votes
 How many Electoral Votes Need?
 
-Have 188 Need 269 votes to be President 81 Still
 State Voting?
 
-How many states have reported? 18 Do we have a winner?
+How many states have reported?  Do we have a winner?
+
 Political Party Affliation?
 What is your political party affliation?
 Other
 
-Your political pary: Other
+Your political pary: 
 Political Parties: Vote
 What political party nominees have you voted for?
-Democratic
-Independent
-Republican
 
 Your Party:
 
