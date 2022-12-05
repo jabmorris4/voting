@@ -35,6 +35,8 @@ st.sidebar.header('Summary')
 state=df['State']
 state_val = st.sidebar.selectbox('Find a state', sorted(state))
 
+shinyApp(ui = ui, server = server)
+
 # Remove whitespace from the top of the page
 st.markdown("""
         <style>
