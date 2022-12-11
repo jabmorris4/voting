@@ -472,11 +472,7 @@ if DC:
     st.write('Flower: American Beauty Rose')
     st.write('Famous Politican: AL Gore')
 
-st.markdown(f'<h1 style="color:#ad070a;font-size:150px;">{"V"}</h1>', unsafe_allow_html=True) 
-st.markdown(f'<h1 style="color:#072deb;font-size:150px;">{"O"}</h1>', unsafe_allow_html=True) 
-st.markdown(f'<h1 style="color:#ad070a;font-size:150px;">{"T"}</h1>', unsafe_allow_html=True) 
-st.markdown(f'<h1 style="color:#072deb;font-size:150px;">{"E"}</h1>', unsafe_allow_html=True) 
-
+st.markdown(f'<h1 style="color:#ad070a;font-size:75px;">{"Election Results"}</h1>', unsafe_allow_html=True) 
 dz = pd.read_csv('summary.csv')
 if st.checkbox('Summary 2012 election raw data'):
     st.subheader('Results')
@@ -487,5 +483,13 @@ dz['Electoral'] = df['Need']
 dz['Winner'] = dz["Winner"].astype(str)
 
 st.markdown(f'<h1 style="color:#072deb;font-size:50px;">{"Democratic Party Wins"}</h1>', unsafe_allow_html=True) 
-st.header("President Barack Obama is reelected")
-st.header("with 332 electoral votes")    
+st.header("President Barack Obama is reelected ")
+st.header("with 332 electoral votes") 
+
+st.image('vote.jpg', width=150)
+st.image('voting.jpg', width=150) 
+
+st.markdown(f'<h1 style="color:#ad070a;font-size:150px;">{"V"}</h1>', unsafe_allow_html=True) 
+st.markdown(f'<h1 style="color:#072deb;font-size:150px;">{"O"}</h1>', unsafe_allow_html=True) 
+st.markdown(f'<h1 style="color:#ad070a;font-size:150px;">{"T"}</h1>', unsafe_allow_html=True) 
+st.markdown(f'<h1 style="color:#072deb;font-size:150px;">{"E"}</h1>', unsafe_allow_html=True) 
