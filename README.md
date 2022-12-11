@@ -8,34 +8,26 @@ To be President
 Need 269 electoral votes from 538 votes)
 
 Using the 2012 Election dataset, should you vote? 
-Yes, VOTE! Voting matters!
+Yes, VOTE! 
+Voting matters!
 
 Data Source: https://github.com/cs109/content/blob/master/HW2_solutions.ipynb
+
 State Voter Facts
 33 states have early voting
 3 states conduct all elections by mail
 20 states require excuse to vote absentee ballot mail
+The app shows additional information about each state!
 
 Streamlit app: https://jabmorris4-voting-voting-7v899a.streamlit.app/
 
 Tableau dashboard: https://public.tableau.com/app/profile/jennifer.oconnor/viz/JenOConnorMidterm/VOTE?publish=yes
 
-State Pary Affiliation
-Electoral Votes
-How many Electoral Votes Need?
+With the 2012 dataset, the app shows how many electoral votes are needed to be President. 
+It shows how many states voted including DC. 
+It gathers information about your voting preference and more!
 
-State Voting?
+Future work:
+*Try to make Democratic Party blue and not aqua - I tried several different ways but aqua would not change.
+*Try to make a sidebar with selection show in summary data example: NC show how the state voted in 2012
 
-How many states have reported?  Do we have a winner?
-
-Political Party Affliation?
-What is your political party affliation?
-Other
-
-Your political pary: 
-Political Parties: Vote
-What political party nominees have you voted for?
-
-Your Party:
-
-Pick a state for more information
