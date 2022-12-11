@@ -14,6 +14,8 @@ State Voter Facts
 3 states conduct all elections by mail
 20 states require excuse to vote absentee ballot mail
 
+Streamlit app: https://jabmorris4-voting-voting-7v899a.streamlit.app/
+
 Tableau dashboard: https://public.tableau.com/app/profile/jennifer.oconnor/viz/JenOConnorMidterm/VOTE?publish=yes
 
 State Pary Affiliation
