@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.image('voting.jpg', width=150)
 st.title('To be President')
 st.text("Need 269 electoral votes from 538 votes)")
 df = pd.read_csv('Dashboard.csv')
