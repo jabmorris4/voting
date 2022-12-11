@@ -7,8 +7,10 @@ Streamlit app VOTE!
 To be President
 Need 269 electoral votes from 538 votes)
 
-Data Source: https://github.com/cs109/content/blob/master/HW2_solutions.ipynb
+Using the 2012 Election dataset, should you vote? 
+Yes, VOTE! Voting matters!
 
+Data Source: https://github.com/cs109/content/blob/master/HW2_solutions.ipynb
 State Voter Facts
 33 states have early voting
 3 states conduct all elections by mail
