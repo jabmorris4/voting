@@ -2,15 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.image('voting.jpg', width=150)
 st.title('To be President')
 st.text("Need 269 electoral votes from 538 votes)")
 df = pd.read_csv('Dashboard.csv')
-primaryColor="#4287f5"
-backgroundColor="#4287f5"
-secondaryBackgroundColor="#4287f5"
-textColor="#4287f5"
 font="sans serif"
      
+st.write('Data Source: https://github.com/cs109/content/blob/master/HW2_solutions.ipynb')
 if st.checkbox('Show 2012 election raw data'):
     st.subheader('Raw data')
     st.write(df)
