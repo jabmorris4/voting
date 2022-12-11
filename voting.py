@@ -482,3 +482,15 @@ st.markdown(f'<h1 style="color:#072deb;font-size:150px;">{"O"}</h1>', unsafe_all
 st.markdown(f'<h1 style="color:#ad070a;font-size:150px;">{"T"}</h1>', unsafe_allow_html=True) 
 st.markdown(f'<h1 style="color:#072deb;font-size:150px;">{"E"}</h1>', unsafe_allow_html=True) 
 
+dz = pd.read_csv('summary.csv')
+if st.checkbox('Summary 2012 election raw data'):
+    st.subheader('Results')
+    st.write(dz)
+    
+dz['States'] = df['State'].apply(lambda x : state_codes[x])
+dz['Electoral'] = df['Need']
+dz['Winner'] = dz["Winner"].astype(str)
+
+st.markdown(f'<h1 style="color:#072deb;font-size:50px;">{"Democratic Party Wins"}</h1>', unsafe_allow_html=True) 
+st.header("President Barack Obama is reelected")
+st.header("with 332 electoral votes")    
