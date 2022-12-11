@@ -11,7 +11,6 @@ secondaryBackgroundColor="#4287f5"
 textColor="#4287f5"
 font="sans serif"
      
-st.write('Data Source: https://github.com/cs109/content/blob/master/HW2_solutions.ipynb')
 if st.checkbox('Show 2012 election raw data'):
     st.subheader('Raw data')
     st.write(df)
